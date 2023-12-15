@@ -8,7 +8,7 @@ The code and any related materials provided by zStarter are for company project 
 
 ## Run Locally
 
-Clone zStarter Repo
+Clone zStarter Mini Repo
 ```bash
     Goto Git Desktop
     File > Clone Repository
@@ -35,13 +35,7 @@ Install Dependencies
 ```bash
   composer install
 ```
-Update Essential Infomations in .env
-```bash
-  APP_NAME=project_name_here
-  APP_DEBUG=true / false
-  DEV_MODE = 1 / 0
-  IS_DEV = 1 / 0
-```
+
 Happy Coding!
 
     
