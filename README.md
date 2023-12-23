@@ -4,8 +4,6 @@ Rights Owned By: Defenzelite Private Limited
 - [@defenzelite](https://github.com/Defenzelite-HQ)
 The code and any related materials provided by zStarter are for company project purpose use only and may not be used, shared, cloned, or sold for any commercial or non-personal purposes without the express written consent of Defenzelite. Any unauthorized use, sharing, cloning, or selling of the code or related materials is strictly prohibited and may result in legal action.
 
-
-
 ## Run Locally
 
 Clone zStarter Mini Repo

@@ -1,14 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-	@yield('meta_data')
-   {{-- @include('site.include.head') --}}
-   <link rel="stylesheet" href="{{ asset('panel/admin/css/app.css') }}">
-</head>
+	<head>
+		@yield('meta_data')
+	{{-- @include('site.include.head') --}}
+	<link rel="stylesheet" href="{{ asset('panel/admin/css/app.css') }}">
+
+	<script>
+		$('#test').on('click', function(e){
+			e.PreventDefault();
+		})
+	</script>
+	</head>
 
 	<body>
-		<div>
+		<div id="23456">
 			<!-- initiate header-->
 		
 				<div class="main-content pl-0 ">
@@ -22,4 +28,5 @@
 		{{-- @include('site.include.script')	` --}}
 		@stack('script')
 	</body>
+
 </html>
